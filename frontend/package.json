@@ -1,24 +1,23 @@
 {
   "name": "frequencia-escolar-frontend",
+  "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build",
     "preview": "vite preview"
-  }
-},
+  },
   "dependencies": {
-    "vue": "^3.3.4",
+    "vue": "^3.4.0",
     "vue-router": "^4.2.5",
-    "vuetify": "^3.3.14",
-    "@mdi/font": "^7.2.96",
-    "axios": "^1.5.0",
-    "pinia": "^2.1.6"
+    "pinia": "^2.1.7",
+    "axios": "^1.6.2",
+    "vuetify": "^3.5.0",
+    "@mdi/font": "^7.3.67"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.3.4",
-    "vite": "^4.4.9",
-    "vite-plugin-pwa": "^0.17.4"
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.10"
   }
 }
